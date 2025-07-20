@@ -4,6 +4,7 @@ When working with multiple tables, you can specify which table a field exists on
 
 > table_name.column_name
 
+
 ```SQL
 SELECT students.name, classes.name
 FROM students

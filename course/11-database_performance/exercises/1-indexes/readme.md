@@ -2,6 +2,7 @@
 
 An index is an in-memory structure that ensures that queries we run on a database are *performant*, that is to say, they run *quickly*. If you can remember back to the data structures course, most database indexes are just [binary trees](https://en.wikipedia.org/wiki/Binary_tree)! The binary tree is stored in [ram](https://en.wikipedia.org/wiki/Random-access_memory) instead of on [disk](https://en.wikipedia.org/wiki/Computer_data_storage), and it makes it easy to lookup the location of an entire row.
 
+
 `PRIMARY KEY` columns are indexed by default, ensuring you can look up a row by its `id` very quickly. However, if you have other columns that you want to be able to do quick lookups on, you'll need to *index* them.
 
 ## CREATE INDEX

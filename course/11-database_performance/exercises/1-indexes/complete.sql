@@ -3,6 +3,7 @@ CREATE TABLE users (
     email TEXT,
     name TEXT, 
     age INTEGER
+    
 );
 
 CREATE INDEX email_idx on users (email);

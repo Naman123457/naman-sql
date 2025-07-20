@@ -4,6 +4,9 @@ A `LEFT JOIN` will return every record from `table_a` regardless of whether or n
 
 ![left-join](https://i.imgur.com/mNbhWfM.png)
 
+
+
+
 A small trick you can do to make writing the SQL query easier is define an [alias](https://en.wikipedia.org/wiki/Alias_(SQL)) for each table. Here's an example:
 
 ```SQL

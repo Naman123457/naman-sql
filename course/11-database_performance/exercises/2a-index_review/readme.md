@@ -4,6 +4,7 @@ As we discussed, an index is a data structure that can perform quick lookups. By
 
 ## Shouldn't we index everything? We can make the database ultra-fast!
 
+
 While indexes make specific kinds of lookups much faster, they also add performance overhead - they can slow down a database in other ways. Think about it, if you index every column, you could have hundreds of binary trees in memory! That needlessly bloats the memory usage of your database. It also means that each time you *insert* a record, that record needs to be added to *many* trees - slowing down your insert speed.
 
 The rule of thumb is simple:

@@ -7,6 +7,7 @@ SQL is a *very* common way hackers attempt to cause damage or breach a database.
 The joke here is that if someone was using this query:
 
 ```SQL
+
 INSERT INTO students(name) VALUES (?);
 ```
 

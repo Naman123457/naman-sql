@@ -6,6 +6,8 @@ CREATE TABLE users (
     username TEXT UNIQUE,
     password TEXT NOT NULL,
     is_admin BOOLEAN
+
+    
 );
 
 INSERT INTO users(id, name, age, country_code, username, password, is_admin)

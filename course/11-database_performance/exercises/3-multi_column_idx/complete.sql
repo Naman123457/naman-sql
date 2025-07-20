@@ -4,6 +4,7 @@ CREATE TABLE transactions (
     recipient_id INTEGER,
     sender_id INTEGER,
     amount INTEGER
+    
 );
 
 CREATE INDEX user_id_recipient_id_idx on transactions

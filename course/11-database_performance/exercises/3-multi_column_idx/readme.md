@@ -9,6 +9,7 @@ CREATE INDEX first_name_last_name_age_idx
 ON users (first_name, last_name, age);
 ```
 
+
 A multi-column index is sorted by the first column first, the second column next, and so forth. A lookup on *only* the first column in a multi-column index gets almost all of the performance improvements that it would get from its own single-column index. However, lookups on only the second or third column will have very degraded performance.
 
 ## Rule of thumb
